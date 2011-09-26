@@ -1,0 +1,7 @@
+This web application is an unsophisticated implementation of a "Wall of Sheep" that I created for http://uga.edu/chugalug/meetings/2011-08-18.php
+
+It was tested with python 2.7, tornado 2.1, and dsniff 2.4. It requires a web browser, such as Chromium, that supports the websocket protocol.
+
+The interface to sniff traffic on and the port to diplay the application on are configurable in wos.ini
+
+You must configure /etc/sudoers to allow running dsniff without a password. This should look like "user_running_wos ALL = (root) NOPASSWD:/usr/sbin/dsniff"
